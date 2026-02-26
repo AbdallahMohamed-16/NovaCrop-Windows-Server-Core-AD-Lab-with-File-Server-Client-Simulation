@@ -1,1 +1,2 @@
 
+systeminfo | findstr /i domain
