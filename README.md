@@ -6,3 +6,7 @@ A professional Active Directory lab on Windows Server Core with:  Two Domain Con
 Enterprise-Style AD Deployment using Windows Server Core  
 Multi-DC Replication • File Server • Role-Based Access Control
 </p>
+
+<p align="center">
+  <img src="01-Project-Overview/Lab-Architecture.png" width="700">
+</p>
