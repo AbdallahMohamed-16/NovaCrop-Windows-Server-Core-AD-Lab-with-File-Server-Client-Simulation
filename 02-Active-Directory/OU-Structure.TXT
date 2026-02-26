@@ -1,0 +1,9 @@
+Get-ADOrganizationalUnit -Filter *
+
+├── Users
+ ├── Computers
+ ├── Servers
+ └── Departments
+      ├── HR
+      ├── IT
+      └── Finance
