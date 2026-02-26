@@ -13,5 +13,5 @@ Deployed Active Directory Domain Controller on Windows Server Core using PowerSh
 •	Permissions
 👥 Clients
 •	Join Domain
-•	GPO Test
+
 
