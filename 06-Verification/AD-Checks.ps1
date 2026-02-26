@@ -1,0 +1,1 @@
+Get-ADPrincipalGroupMembership mona.hassan
