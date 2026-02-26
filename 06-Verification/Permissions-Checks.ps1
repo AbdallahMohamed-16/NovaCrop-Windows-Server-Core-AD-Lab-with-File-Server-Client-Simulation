@@ -1,0 +1,4 @@
+Powershell
+
+icacls
+Get-SmbShareAccess
