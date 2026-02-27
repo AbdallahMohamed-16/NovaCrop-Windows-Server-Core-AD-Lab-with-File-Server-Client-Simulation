@@ -26,7 +26,11 @@ Multi-DC Replication • File Server • Role-Based Access Control
    ┌──────────┐      ┌──────────┐
    │   FS1     │     │  Client  │
    │ FileSrv   │     │ Win 10   │
-   └──────────┘      └──────────┘
+    └──────────┘      └──────────┘
+
+
+
+
 <p align="center">
 
  
