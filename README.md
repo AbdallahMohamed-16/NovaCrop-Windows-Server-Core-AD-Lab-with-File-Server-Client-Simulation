@@ -12,6 +12,8 @@ Multi-DC Replication • File Server • Role-Based Access Control
 </p>
 
 <p align="center">
+
+ 
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-2019-blue)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-Lab-green)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation-yellow)
