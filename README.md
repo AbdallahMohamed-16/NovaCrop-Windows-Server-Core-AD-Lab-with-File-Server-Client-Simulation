@@ -7,10 +7,26 @@ Enterprise-Style AD Deployment using Windows Server Core
 Multi-DC Replication • File Server • Role-Based Access Control
 </p>
 
-<p align="center">
-  <img src="01-Project-Overview/Lab-Architecture.png" width="700">
-</p>
 
+           ┌────────────┐
+           │   DC1      │
+           │ 10.10.10.10│
+           │ Primary DC │
+           └─────┬──────┘
+                 │ Replication
+           ┌─────┴──────┐
+           │    DC2     │
+           │ 10.10.10.11│
+           │ Additional │
+           │    DC + GC │
+           └─────┬──────┘
+                 │
+        ┌────────┴────────┐
+        │                 │
+   ┌──────────┐      ┌──────────┐
+   │   FS1     │     │  Client  │
+   │ FileSrv   │     │ Win 10   │
+   └──────────┘      └──────────┘
 <p align="center">
 
  
