@@ -8,7 +8,7 @@ Multi-DC Replication • File Server • Role-Based Access Control
 </p>
 
 
-        `   ┌────────────┐
+           ┌────────────┐
            │   DC1      │
            │ 10.10.10.10│
            │ Primary DC │
@@ -23,7 +23,7 @@ Multi-DC Replication • File Server • Role-Based Access Control
                  │
         ┌────────┴────────┐
         │                 │
-   ┌──────────┐      ┌──────────┐`
+   ┌──────────┐      ┌──────────┐
    │   FS1     │     │  Client  │
    │ FileSrv   │     │ Win 10   │
     └──────────┘      └──────────┘
@@ -108,27 +108,7 @@ Active Directory & Windows Server Enthusiast 🚀
 
 
 
-+--------------+
-       |     DC1      |
-       | 10.10.10.10  |
-       |  Primary DC  |
-       +--------------+
-              |
-         Replication
-              |
-       +--------------+
-       |     DC2      |
-       | 10.10.10.11  |
-       |  Additional  |
-       |    DC + GC   |
-       +--------------+
-              |
-      _______/ \_______
-     |                 |
-+---------+       +----------+
-|   FS1   |       |  Client  |
-| FileSrv |       |  Win 10  |
-+---------+       +----------+
+
 
 
 
